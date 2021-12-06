@@ -1,0 +1,19 @@
+Tema: Site da Empresa SpaceToys loja especializada na venda de Action Figures
+
+ Páginas:
+
+   Página Home:
+
+      (Logo da empresa, Links de Navegação, Título da Principal, Texto de apresentação, Subtitulo e imagem, Footer da Pagina com links para Redes sociais )
+
+   Página Sobre:
+
+      (Logo da empresa, Links de Navegação, Título da Principal, Texto de apresentação, Imagem ilustração, Footer da Pagina com links para Redes sociais)
+
+   Página Produtos:
+
+      (Logo da empresa, Links de Navegação, Título da Principal, Produtos, Footer da Pagina com links para Redes sociais)
+
+   Página Contato:
+
+      (Logo da empresa, Links de Navegação, Título da Principal, Formulario, Endereço e Localização, Footer da Pagina com links para Redes sociais)

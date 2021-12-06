@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Imagens/spaceicon.jpg">
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <title>SpaceToys</title>
+    </head>
+    <body>
+        <header>
+            <!--Logo da empresa-->
+        
+            <img src="Imagens/spacelogo.jpg" width="40%" height="10%" alt="SpaceToys logo">
+        
+    
+            <!--Links de Navegação-->
+            <nav>
+            <a href="home.html">Home</a> |
+            <a href="sobre.html">Sobre</a> |
+            <a href="produtos.html">Produtos</a> |
+            <a href="contato.html">Contato</a> |
+            <input type="search" placeholder="O que você procura?...">
+            <button class="btn" type="submit">Pesquisar</button>
+            </nav>
+        </header>
+    <div id="corpo">
+        <main>       
+            <section>
+                <!--Titulo Principal-->
+                <h2>Fale Conosco:</h2> 
+            </section>               
+   
+           <div class="formu">
+               <!--Formulario-->
+               <fieldset>
+                   <legend>Informe seu dados</legend>
+                   <div id="for">
+                    <form>
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome">                               
+                        </div>
+                        <br>           
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email" id="email">                                
+                        </div>
+                        <br>
+                        <div>
+                            <label for="cidade">Cidade</label>
+                            <select name="cidade" id="cidade">
+                                <option>São Paulo</option>
+                                <option >Rio de Janeiro</option>
+                                <option >Minas Gerais</option>
+    
+                            </select>                
+                        </div>
+                        <br>
+                        <div>
+                            <label for="estado">Estado</label>
+                            <select name="estado" id="estado">
+                                <option>SP</option>
+                                <option >RJ</option>
+                                <option >MG</option>
+    
+                            </select>                
+                        </div>
+                        <br>
+                        <div>
+                            <label for="mensagem">Mensagem:</label>
+                         <textarea name="mensagem" id="mensagem" rows="10" cols="62"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn" type="submit">Enviar</button>
+                            <button class="btn" type="reset">Limpar</button>
+                        </div>
+                </form>
+                   </div>
+                   
+           </fieldset>         
+    </div>
+        <br>
+        <section>
+            <!--Endereço e Localização-->
+            <h2>Localização:</h2>
+            <p><strong>Endereço:</strong> Rua Paranabi, 218-224 - Tucuruvi, São Paulo - SP Cep: 02307-120 </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4351.8473643542775!2d-46.60382242165099!3d-23.48019303886231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef672b3b00001%3A0x52ec2afbadc14ef!2sShopping%20Metr%C3%B4%20Tucuruvi!5e0!3m2!1spt-BR!2sbr!4v1637068582038!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+</div>
+    
+    <br><br>
+    <div class="botao">
+        <a href="Home.html">Voltar</a>
+    </div>
+
+    
+    <footer>
+        <!--Footer da Pagina com links para Redes sociais-->
+
+        © 2021 <strong>SpaceToys</strong>. Todos os direitos reservados | <a href="Sobre.html" target="_self">Institucional</a> | <a href="Contato.html" target="_self">Contato</a> 
+        | Redes Sociais:       
+        <a href="https://www.youtube.com" target="_blank"><img src="Imagens/youtube.ico" alt="Youtube"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="Imagens/face.ico" alt="Facebook"></a> 
+        | Dúvidas:<a href="https://api.whatsapp.com/send?phone=551132550050&text=Ola%20bem%20vindo%20ao%20fale%20conosco%20da%20SpaceToys!&source=&data=" target="_blank"><img src="Imagens/whatsapp.ico" alt="whatspp"></a>
+        | E-mail: <a href="mailto:spacetoys@exemplo.com">spacetoys@exemplo.com.br</a>       
+    </footer>   
+</body>
+</html>
